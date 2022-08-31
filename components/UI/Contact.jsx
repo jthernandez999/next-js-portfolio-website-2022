@@ -32,23 +32,27 @@ const Contact = () => {
                 <span>
                   <i className="ri-mail-line"></i>
                 </span>
-                <p>j.t.hernandez999@gmail.com</p>
+                <a href="mailto:j.t.hernandez999@gmail.com?subject=I%20Want%20To%20Hire%20You...">
+                  j.t.hernandez999@gmail.com
+                </a>
               </li>
 
               <li className={`${classes.info__item}`}>
                 <span>
                   <i className="ri-phone-line"></i>
                 </span>
-                <p>1.626.786.7473</p>
+                <a href="tel:626-786-7473" className="phoneLink">
+                  1.626.786.7473
+                </a>
               </li>
             </ul>
 
             <div className={`${classes.social__links}`}>
-              <Link href="#">
+              <Link href="https://github.com/jthernandez999">
                 <i className="ri-github-line"></i>
               </Link>
 
-              <Link href="#">
+              <Link href="https://www.linkedin.com/in/joe-thomas-hernandez/">
                 <i className="ri-linkedin-line"></i>
               </Link>
               <Link href="#">

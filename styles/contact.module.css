@@ -2,6 +2,10 @@
 	padding-bottom: 60px;
 }
 
+.phoneLink {
+	text-decoration: none;
+}
+
 .contact__info__list {
 	list-style: none;
 	padding-left: 0;

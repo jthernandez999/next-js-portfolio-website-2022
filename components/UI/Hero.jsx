@@ -26,11 +26,13 @@ const Hero = () => {
               </p>
               <div className="mt-5">
                 <button className="primary__btn">
-                  <Link href="#">Hire me</Link>
+                  <Link href="#contact">Hire me</Link>
                 </button>
 
                 <button className="secondary__btn">
-                  <Link href="#">Download CV</Link>
+                  <Link href="https://docs.google.com/document/d/1mreal3xAfcWmgHGrmzcSgSg36tbzCHyQ-gjf-yQWhbU/edit?usp=sharing">
+                    Download CV
+                  </Link>
                 </button>
               </div>
             </div>
