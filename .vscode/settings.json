@@ -3,5 +3,6 @@
 	"prettier.singleQuote": true,
 	"prettier.useTabs": true,
 	"prettier.tabWidth": 4,
-	"prettier.trailingComma": "es5"
+	"prettier.trailingComma": "es5",
+	"cSpell.words": ["remixicon"]
 }
